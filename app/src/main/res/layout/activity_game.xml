@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393839"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/tv34Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="32dp"
+        android:background="#787c7f"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCheck3Game"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv33Game"
+        app:layout_constraintTop_toBottomOf="@+id/tv24Game" />
+
+    <TextView
+        android:id="@+id/buttonCheck3Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="32dp"
+        android:background="#626ffc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv34Game"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCheck2Game" />
+
+    <TextView
+        android:id="@+id/tv33Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="32dp"
+        android:background="#787c7f"
+        app:layout_constraintEnd_toStartOf="@+id/tv34Game"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv32Game"
+        app:layout_constraintTop_toBottomOf="@+id/tv23Game" />
+
+    <TextView
+        android:id="@+id/tv31Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="32dp"
+        android:background="#787c7f"
+        app:layout_constraintEnd_toStartOf="@+id/tv32Game"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv21Game" />
+
+    <TextView
+        android:id="@+id/tv32Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="32dp"
+        android:background="#787c7f"
+        app:layout_constraintEnd_toStartOf="@+id/tv33Game"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv31Game"
+        app:layout_constraintTop_toBottomOf="@+id/tv22Game" />
+
+    <TextView
+        android:id="@+id/tv24Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="32dp"
+        android:background="#787c7f"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCheck2Game"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv23Game"
+        app:layout_constraintTop_toBottomOf="@+id/tv14Game" />
+
+    <TextView
+        android:id="@+id/tv23Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="32dp"
+        android:background="#787c7f"
+        app:layout_constraintEnd_toStartOf="@+id/tv24Game"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv22Game"
+        app:layout_constraintTop_toBottomOf="@+id/tv13Game" />
+
+    <TextView
+        android:id="@+id/tv22Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="32dp"
+        android:background="#787c7f"
+        app:layout_constraintEnd_toStartOf="@+id/tv23Game"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv21Game"
+        app:layout_constraintTop_toBottomOf="@+id/tv12Game" />
+
+    <TextView
+        android:id="@+id/tv21Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="32dp"
+        android:background="#787c7f"
+        app:layout_constraintEnd_toStartOf="@+id/tv22Game"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv11Game" />
+
+    <TextView
+        android:id="@+id/buttonCheck2Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="32dp"
+        android:background="#626ffc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv24Game"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCheck1Game" />
+
+    <TextView
+        android:id="@+id/tv14Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="48dp"
+        android:background="#787c7f"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCheck1Game"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv13Game"
+        app:layout_constraintTop_toBottomOf="@+id/tvGameTitle" />
+
+    <TextView
+        android:id="@+id/tv12Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="48dp"
+        android:background="#787c7f"
+        app:layout_constraintEnd_toStartOf="@+id/tv13Game"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv11Game"
+        app:layout_constraintTop_toBottomOf="@+id/tvGameTitle" />
+
+    <TextView
+        android:id="@+id/tv11Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="48dp"
+        android:background="#787c7f"
+        app:layout_constraintEnd_toStartOf="@+id/tv12Game"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGameTitle" />
+
+    <TextView
+        android:id="@+id/tv13Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="48dp"
+        android:background="#787c7f"
+        app:layout_constraintEnd_toStartOf="@+id/tv14Game"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv12Game"
+        app:layout_constraintTop_toBottomOf="@+id/tvGameTitle" />
+
+    <TextView
+        android:id="@+id/buttonCheck1Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="48dp"
+        android:background="#626ffc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv14Game"
+        app:layout_constraintTop_toBottomOf="@+id/tvGameTitle" />
+
+    <TextView
+        android:id="@+id/tvGameTitle"
+        android:layout_width="319dp"
+        android:layout_height="84dp"
+        android:text="WORDLE_dg"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <Button
+        android:id="@+id/buttonGameReturn"
+        android:layout_width="135dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#c8b653"
+        android:insetTop="3dp"
+        android:insetBottom="3dp"
+        android:text="RETURN"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv33Game"
+        app:layout_constraintVertical_bias="0.398" />
+
+    <EditText
+        android:id="@+id/et11Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:background='#787c7f'
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv11Game"
+        app:layout_constraintEnd_toEndOf="@+id/tv11Game"
+        app:layout_constraintStart_toStartOf="@+id/tv11Game"
+        app:layout_constraintTop_toTopOf="@+id/tv11Game" />
+
+    <EditText
+        android:id="@+id/et12Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:background='#787c7f'
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv12Game"
+        app:layout_constraintEnd_toEndOf="@+id/tv12Game"
+        app:layout_constraintStart_toStartOf="@+id/tv12Game"
+        app:layout_constraintTop_toTopOf="@+id/tv12Game" />
+
+    <EditText
+        android:id="@+id/et13Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:background='#787c7f'
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv13Game"
+        app:layout_constraintEnd_toEndOf="@+id/tv13Game"
+        app:layout_constraintStart_toStartOf="@+id/tv13Game"
+        app:layout_constraintTop_toTopOf="@+id/tv13Game" />
+
+    <EditText
+        android:id="@+id/et14Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:background='#787c7f'
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv14Game"
+        app:layout_constraintEnd_toEndOf="@+id/tv14Game"
+        app:layout_constraintStart_toStartOf="@+id/tv14Game"
+        app:layout_constraintTop_toTopOf="@+id/tv14Game" />
+
+    <EditText
+        android:id="@+id/et21Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:background='#787c7f'
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv21Game"
+        app:layout_constraintEnd_toEndOf="@+id/tv21Game"
+        app:layout_constraintStart_toStartOf="@+id/tv21Game"
+        app:layout_constraintTop_toTopOf="@+id/tv21Game" />
+
+    <EditText
+        android:id="@+id/et22Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:background='#787c7f'
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv22Game"
+        app:layout_constraintEnd_toEndOf="@+id/tv22Game"
+        app:layout_constraintStart_toStartOf="@+id/tv22Game"
+        app:layout_constraintTop_toTopOf="@+id/tv22Game" />
+
+    <EditText
+        android:id="@+id/et23Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:background='#787c7f'
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv23Game"
+        app:layout_constraintEnd_toEndOf="@+id/tv23Game"
+        app:layout_constraintStart_toStartOf="@+id/tv23Game"
+        app:layout_constraintTop_toTopOf="@+id/tv23Game" />
+
+    <EditText
+        android:id="@+id/et24Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:background='#787c7f'
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv24Game"
+        app:layout_constraintEnd_toEndOf="@+id/tv24Game"
+        app:layout_constraintStart_toStartOf="@+id/tv24Game"
+        app:layout_constraintTop_toTopOf="@+id/tv24Game" />
+
+    <EditText
+        android:id="@+id/et31Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:background='#787c7f'
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv31Game"
+        app:layout_constraintEnd_toEndOf="@+id/tv31Game"
+        app:layout_constraintStart_toStartOf="@+id/tv31Game"
+        app:layout_constraintTop_toTopOf="@+id/tv31Game" />
+
+    <EditText
+        android:id="@+id/et32Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:background='#787c7f'
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv32Game"
+        app:layout_constraintEnd_toEndOf="@+id/tv32Game"
+        app:layout_constraintStart_toStartOf="@+id/tv32Game"
+        app:layout_constraintTop_toTopOf="@+id/tv32Game" />
+
+    <EditText
+        android:id="@+id/et33Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:background='#787c7f'
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv33Game"
+        app:layout_constraintEnd_toEndOf="@+id/tv33Game"
+        app:layout_constraintStart_toStartOf="@+id/tv33Game"
+        app:layout_constraintTop_toTopOf="@+id/tv33Game" />
+
+    <EditText
+        android:id="@+id/et34Game"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:background='#787c7f'
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv34Game"
+        app:layout_constraintEnd_toEndOf="@+id/tv34Game"
+        app:layout_constraintStart_toStartOf="@+id/tv34Game"
+        app:layout_constraintTop_toTopOf="@+id/tv34Game" />
+
+    <TextView
+        android:id="@+id/tvDescGame"
+        android:layout_width="274dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="124dp"
+        android:text="enter a letter here"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgArrow11Game"
+        android:layout_width="65dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrowwordle" />
+
+    <ImageView
+        android:id="@+id/imgArrowCheck1Game"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrowwordlecheck" />
+
+    <ImageView
+        android:id="@+id/ivCheck1SymbolGame"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonCheck1Game"
+        app:layout_constraintEnd_toEndOf="@+id/buttonCheck1Game"
+        app:layout_constraintStart_toStartOf="@+id/buttonCheck1Game"
+        app:layout_constraintTop_toTopOf="@+id/buttonCheck1Game"
+        app:srcCompat="@drawable/ic_baseline_keyboard_return_24" />
+
+    <ImageView
+        android:id="@+id/ivCheck2SymbolGame"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonCheck2Game"
+        app:layout_constraintEnd_toEndOf="@+id/buttonCheck2Game"
+        app:layout_constraintStart_toStartOf="@+id/buttonCheck2Game"
+        app:layout_constraintTop_toTopOf="@+id/buttonCheck2Game"
+        app:srcCompat="@drawable/ic_baseline_keyboard_return_24" />
+
+    <ImageView
+        android:id="@+id/ivCheck3SymbolGame"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonCheck3Game"
+        app:layout_constraintEnd_toEndOf="@+id/buttonCheck3Game"
+        app:layout_constraintStart_toStartOf="@+id/buttonCheck3Game"
+        app:layout_constraintTop_toTopOf="@+id/buttonCheck3Game"
+        app:srcCompat="@drawable/ic_baseline_keyboard_return_24" />
+
+    <!--
+    <TextView
+            android:id="@+id/tv34Game"
+            android:layout_width="65dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="32dp"
+            android:background="#6CA965"
+            app:layout_constraintEnd_toStartOf="@+id/buttonCheck3Game"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tv33Game"
+            app:layout_constraintTop_toBottomOf="@+id/tv24Game" />
+
+        <TextView
+            android:id="@+id/buttonCheck3Game"
+            android:layout_width="65dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="32dp"
+            android:background="#626ffc"
+            android:clickable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tv34Game"
+            app:layout_constraintTop_toBottomOf="@+id/buttonCheck2Game" />
+
+        <TextView
+            android:id="@+id/tv33Game"
+            android:layout_width="65dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="32dp"
+            android:background="#6CA965"
+            app:layout_constraintEnd_toStartOf="@+id/tv34Game"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tv32Game"
+            app:layout_constraintTop_toBottomOf="@+id/tv23Game" />
+
+        <TextView
+            android:id="@+id/tv31Game"
+            android:layout_width="65dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="32dp"
+            android:background="#6CA965"
+            app:layout_constraintEnd_toStartOf="@+id/tv32Game"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv21Game" />
+
+        <TextView
+            android:id="@+id/tv32Game"
+            android:layout_width="65dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="32dp"
+            android:background="#6CA965"
+            app:layout_constraintEnd_toStartOf="@+id/tv33Game"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tv31Game"
+            app:layout_constraintTop_toBottomOf="@+id/tv22Game" />
+
+        <TextView
+            android:id="@+id/tv24Game"
+            android:layout_width="65dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="32dp"
+            android:background="#787c7f"
+            app:layout_constraintEnd_toStartOf="@+id/buttonCheck2Game"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tv23Game"
+            app:layout_constraintTop_toBottomOf="@+id/tv14Game" />
+
+        <TextView
+            android:id="@+id/tv23Game"
+            android:layout_width="65dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="32dp"
+            android:background="#c8b653"
+            app:layout_constraintEnd_toStartOf="@+id/tv24Game"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tv22Game"
+            app:layout_constraintTop_toBottomOf="@+id/tv13Game" />
+
+        <TextView
+            android:id="@+id/tv22Game"
+            android:layout_width="65dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="32dp"
+            android:background="#6CA965"
+            app:layout_constraintEnd_toStartOf="@+id/tv23Game"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tv21Game"
+            app:layout_constraintTop_toBottomOf="@+id/tv12Game" />
+
+        <TextView
+            android:id="@+id/tv21Game"
+            android:layout_width="65dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="32dp"
+            android:background="#6CA965"
+            app:layout_constraintEnd_toStartOf="@+id/tv22Game"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv11Game" />
+
+        <TextView
+            android:id="@+id/buttonCheck2Game"
+            android:layout_width="65dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="32dp"
+            android:background="#626ffc"
+            android:clickable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tv24Game"
+            app:layout_constraintTop_toBottomOf="@+id/buttonCheck1Game" />
+
+        <TextView
+            android:id="@+id/tv14Game"
+            android:layout_width="65dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="48dp"
+            android:background="#787c7f"
+            app:layout_constraintEnd_toStartOf="@+id/buttonCheck1Game"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tv13Game"
+            app:layout_constraintTop_toBottomOf="@+id/tvGameTitle" />
+
+        <TextView
+            android:id="@+id/tv12Game"
+            android:layout_width="65dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="48dp"
+            android:background="#c8b653"
+            app:layout_constraintEnd_toStartOf="@+id/tv13Game"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tv11Game"
+            app:layout_constraintTop_toBottomOf="@+id/tvGameTitle" />
+
+        <TextView
+            android:id="@+id/tv11Game"
+            android:layout_width="65dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="48dp"
+            android:background="#6CA965"
+            app:layout_constraintEnd_toStartOf="@+id/tv12Game"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvGameTitle" />
+
+        <TextView
+            android:id="@+id/tv13Game"
+            android:layout_width="65dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="48dp"
+            android:background="#787c7f"
+            app:layout_constraintEnd_toStartOf="@+id/tv14Game"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tv12Game"
+            app:layout_constraintTop_toBottomOf="@+id/tvGameTitle" />
+
+        <TextView
+            android:id="@+id/buttonCheck1Game"
+            android:layout_width="65dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="48dp"
+            android:background="#626ffc"
+            android:clickable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tv14Game"
+            app:layout_constraintTop_toBottomOf="@+id/tvGameTitle" />
+
+        <TextView
+            android:id="@+id/tvGameTitle"
+            android:layout_width="319dp"
+            android:layout_height="84dp"
+            android:fontFamily="@font/alata"
+            android:text="WORDLE_dg"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.08" />
+
+        <Button
+            android:id="@+id/buttonGameReturn"
+            android:layout_width="129dp"
+            android:layout_height="59dp"
+            android:backgroundTint="#c8b653"
+            android:fontFamily="@font/alata"
+            android:insetTop="3dp"
+            android:insetBottom="3dp"
+            android:text="RETURN"
+            android:textAlignment="center"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:cornerRadius="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv33Game"
+            app:layout_constraintVertical_bias="0.398" />
+
+    -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
